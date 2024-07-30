@@ -7,9 +7,32 @@
 
 import SwiftUI
 
+struct MovieModel {
+    let title: String
+    let director: String
+    let count: Int
+}
+
+//struct TVModel {
+//    let title: String
+//    let director: String
+//    let count: Int
+//}
+
+typealias TVModel = MovieModel
+
 struct TypealiasSwiftUIView: View {
+
+    @State var item: MovieModel = MovieModel(title: "HSDSD", director: "JOE", count: 1)
+
+    @State var item1: TVModel = TVModel(title: "TV TITLE", director: "JOE", count: 1)
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(item1.title)
+            Text(item1.director)
+            Text("\(item.count)")
+        }
     }
 }
 

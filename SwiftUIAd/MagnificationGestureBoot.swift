@@ -23,7 +23,7 @@ struct MagnificationGestureBoot: View {
             .padding(.horizontal)
             Rectangle()
                 .frame(height: 300)
-                .scaleEffect(CGSize(width: 1.0, height: 1.0))
+                .scaleEffect(1 + currentAmount)
                 .gesture(
                     MagnificationGesture()
                         .onChanged({ value in
