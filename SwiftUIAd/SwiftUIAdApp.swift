@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAdApp: App {
     var body: some Scene {
         WindowGroup {
-            DowningImagesSwiftUIView()
+            AccessibilityVoiceOverSwiftUIView()
         }
     }
 }

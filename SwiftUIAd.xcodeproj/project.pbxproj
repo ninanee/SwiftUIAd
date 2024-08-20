@@ -32,6 +32,7 @@
 		96194D6A2C52E39B0083230D /* DownloadWithEacapingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96194D692C52E39B0083230D /* DownloadWithEacapingSwiftUIView.swift */; };
 		96194D6C2C52F2DB0083230D /* CombineSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96194D6B2C52F2DB0083230D /* CombineSwiftUIView.swift */; };
 		96194D6E2C53D0960083230D /* TimeronReceiveSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96194D6D2C53D0960083230D /* TimeronReceiveSwiftUIView.swift */; };
+		9649BEF82C6A470600999635 /* AccessibilityVoiceOverSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9649BEF72C6A470600999635 /* AccessibilityVoiceOverSwiftUIView.swift */; };
 		966525CC2C57CB5D008EF85C /* SubscribersSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966525CB2C57CB5C008EF85C /* SubscribersSwiftUIView.swift */; };
 		966525CE2C5842D2008EF85C /* FileManagerSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966525CD2C5842D2008EF85C /* FileManagerSwiftUIView.swift */; };
 		966525D02C593FA4008EF85C /* CacheImagesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966525CF2C593FA4008EF85C /* CacheImagesSwiftUIView.swift */; };
@@ -44,6 +45,10 @@
 		96D9CC662C5976AF0074F5C1 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC652C5976AF0074F5C1 /* ImageLoadingViewModel.swift */; };
 		96D9CC682C5977090074F5C1 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC672C5977090074F5C1 /* PhotoModelCacheManager.swift */; };
 		96D9CC6A2C59771E0074F5C1 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC692C59771E0074F5C1 /* PhotoModelFileManager.swift */; };
+		96D9CC6C2C5A6EF40074F5C1 /* DynamicText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC6B2C5A6EF40074F5C1 /* DynamicText.swift */; };
+		96D9CC6E2C5A8CD10074F5C1 /* DynamicColorsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC6D2C5A8CD10074F5C1 /* DynamicColorsSwiftUIView.swift */; };
+		96D9CC702C5A9ACF0074F5C1 /* VoiceOverSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC6F2C5A9ACF0074F5C1 /* VoiceOverSwiftUIView.swift */; };
+		96D9CC722C5AADE10074F5C1 /* PagingScrollViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9CC712C5AADE10074F5C1 /* PagingScrollViewSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +78,7 @@
 		96194D692C52E39B0083230D /* DownloadWithEacapingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEacapingSwiftUIView.swift; sourceTree = "<group>"; };
 		96194D6B2C52F2DB0083230D /* CombineSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSwiftUIView.swift; sourceTree = "<group>"; };
 		96194D6D2C53D0960083230D /* TimeronReceiveSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeronReceiveSwiftUIView.swift; sourceTree = "<group>"; };
+		9649BEF72C6A470600999635 /* AccessibilityVoiceOverSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOverSwiftUIView.swift; sourceTree = "<group>"; };
 		966525CB2C57CB5C008EF85C /* SubscribersSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribersSwiftUIView.swift; sourceTree = "<group>"; };
 		966525CD2C5842D2008EF85C /* FileManagerSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerSwiftUIView.swift; sourceTree = "<group>"; };
 		966525CF2C593FA4008EF85C /* CacheImagesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImagesSwiftUIView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 		96D9CC652C5976AF0074F5C1 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		96D9CC672C5977090074F5C1 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		96D9CC692C59771E0074F5C1 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
+		96D9CC6B2C5A6EF40074F5C1 /* DynamicText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicText.swift; sourceTree = "<group>"; };
+		96D9CC6D2C5A8CD10074F5C1 /* DynamicColorsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorsSwiftUIView.swift; sourceTree = "<group>"; };
+		96D9CC6F2C5A9ACF0074F5C1 /* VoiceOverSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverSwiftUIView.swift; sourceTree = "<group>"; };
+		96D9CC712C5AADE10074F5C1 /* PagingScrollViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollViewSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,11 @@
 				966525CB2C57CB5C008EF85C /* SubscribersSwiftUIView.swift */,
 				966525CD2C5842D2008EF85C /* FileManagerSwiftUIView.swift */,
 				966525CF2C593FA4008EF85C /* CacheImagesSwiftUIView.swift */,
+				96D9CC6B2C5A6EF40074F5C1 /* DynamicText.swift */,
+				96D9CC6D2C5A8CD10074F5C1 /* DynamicColorsSwiftUIView.swift */,
+				96D9CC6F2C5A9ACF0074F5C1 /* VoiceOverSwiftUIView.swift */,
+				96D9CC712C5AADE10074F5C1 /* PagingScrollViewSwiftUIView.swift */,
+				9649BEF72C6A470600999635 /* AccessibilityVoiceOverSwiftUIView.swift */,
 				966525D12C59621A008EF85C /* DowningImages */,
 				96194D5C2C527E3A0083230D /* CoreDataContainer.xcdatamodeld */,
 				96194D572C51877B0083230D /* FruitsContainer.xcdatamodeld */,
@@ -284,15 +299,19 @@
 				96194D5E2C527E3A0083230D /* CoreDataContainer.xcdatamodeld in Sources */,
 				96194D6E2C53D0960083230D /* TimeronReceiveSwiftUIView.swift in Sources */,
 				96194D522C5156F20083230D /* ArraysSwiftUIView.swift in Sources */,
+				96D9CC6E2C5A8CD10074F5C1 /* DynamicColorsSwiftUIView.swift in Sources */,
 				96194D422C5007B20083230D /* MagnificationGestureBoot.swift in Sources */,
+				9649BEF82C6A470600999635 /* AccessibilityVoiceOverSwiftUIView.swift in Sources */,
 				96D9CC642C59761E0074F5C1 /* DownloadingImageView.swift in Sources */,
 				96194D622C52A9640083230D /* WeakSelfSwiftUIView.swift in Sources */,
 				96194D4A2C504C800083230D /* SoundEffectsSwiftUIView.swift in Sources */,
 				966525CE2C5842D2008EF85C /* FileManagerSwiftUIView.swift in Sources */,
 				96D9CC682C5977090074F5C1 /* PhotoModelCacheManager.swift in Sources */,
+				96D9CC6C2C5A6EF40074F5C1 /* DynamicText.swift in Sources */,
 				96194D592C51877B0083230D /* FruitsContainer.xcdatamodeld in Sources */,
 				96194D462C5041260083230D /* MultipleSheetsSwiftUIView.swift in Sources */,
 				966525D02C593FA4008EF85C /* CacheImagesSwiftUIView.swift in Sources */,
+				96D9CC702C5A9ACF0074F5C1 /* VoiceOverSwiftUIView.swift in Sources */,
 				96194D6A2C52E39B0083230D /* DownloadWithEacapingSwiftUIView.swift in Sources */,
 				96194D4C2C5058650083230D /* HapticsSwiftUIView.swift in Sources */,
 				96194D682C52D63A0083230D /* CodableSwiftUIView.swift in Sources */,
@@ -305,6 +324,7 @@
 				96D9CC622C59758B0074F5C1 /* DownloadingImagesRow.swift in Sources */,
 				966525CC2C57CB5D008EF85C /* SubscribersSwiftUIView.swift in Sources */,
 				96D9CC662C5976AF0074F5C1 /* ImageLoadingViewModel.swift in Sources */,
+				96D9CC722C5AADE10074F5C1 /* PagingScrollViewSwiftUIView.swift in Sources */,
 				96194D602C529FE50083230D /* Multi-threadingSwiftUIView.swift in Sources */,
 				966525DD2C5965F2008EF85C /* PhotoModelDataService.swift in Sources */,
 				96194D5B2C52785E0083230D /* CoreDataRelationshipsSwiftUIView.swift in Sources */,
@@ -444,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAd/Preview Content\"";
+				DEVELOPMENT_TEAM = UH8RU635H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAd/Preview Content\"";
+				DEVELOPMENT_TEAM = UH8RU635H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -479,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
